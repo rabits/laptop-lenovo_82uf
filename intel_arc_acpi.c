@@ -11,7 +11,7 @@
 //    * Put path and method names to the corresponding constants
 // 2. Compile the binary: $ gcc -O2 -s intel_arc_acpi.c -o intel_arc_acpi
 // 3. Move binary intel_arc_acpi to /usr/local/bin/ directory
-// 4. Set executable and setgit bits: $ sudo chmod a+x,g+s /usr/local/bin/intel_arc_acpi
+// 4. Set executable and setgit bits: $ sudo chmod a+x,u+s /usr/local/bin/intel_arc_acpi
 // 5. Use as: $ intel_arc_acpi <status|on|off>
 
 #include <stdio.h>
